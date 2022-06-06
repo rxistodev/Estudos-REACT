@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <h2>FORMS</h2>
-      <MyForm/>
+      <MyForm user={{ name:"Rennan" , email:"rxisto170@gmail.com" }} />
     </div>
   );
 }
